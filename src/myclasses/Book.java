@@ -28,7 +28,7 @@ public class Book {
     }
     public void addAuthor(Author author){
         //создаем копию authors с дополнительной ячейкой
-        //В доп ячейку помещаемь author
+        //В доп ячейку помещаем author
         //В authors кладем ссылку на новый массив.
         Author[] newAuthors = Arrays.copyOf(authors, authors.length + 1);
         newAuthors[newAuthors.length-1] = author;
